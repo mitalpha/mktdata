@@ -32,7 +32,7 @@ import org.jboss.logging.Logger;
 
 import util.HTMLFilter;
 
-@ServerEndpoint(value = "/websocket/chat")
+@ServerEndpoint(value = "/mktdata/websocket/chat")
 public class ChatAnnotation {
 
     private static final Logger log = Logger.getLogger(ChatAnnotation.class);
