@@ -1,6 +1,0 @@
-eclipse.preferences.version=1
-org.jboss.tools.openshift.Connection=https\://mitalpha%40netscape.net@api.starter-ca-central-1.openshift.com\:443
-org.jboss.tools.openshift.DeployProject=mktdata
-org.jboss.tools.openshift.PodPath=
-org.jboss.tools.openshift.Service=sage@jboss-webserver31-tomcat
-org.jboss.tools.openshift.SourcePath=${workspace_loc\:/mktdata}
