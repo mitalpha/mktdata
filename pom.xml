@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.openshift.cloudenablement.eap</groupId>
-	<artifactId>websocket</artifactId>
+	<artifactId>mktdata</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
 	<name>mktdata</name>
