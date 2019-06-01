@@ -5,7 +5,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.openshift.cloudenablement.eap</groupId>
+	<groupId>com.mitalpha</groupId>
 	<artifactId>mktdata</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
@@ -25,8 +25,7 @@
 
 		<!-- version dependencies -->
 		<version.websocket.api>1.1</version.websocket.api>
-		<version.jboss.logging>3.3.2.Final</version.jboss.logging>
-
+	
 		<!-- maven-compiler-plugin -->
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -41,10 +40,19 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.jboss.logging</groupId>
-			<artifactId>jboss-logging</artifactId>
-			<version>${version.jboss.logging}</version>
-			<scope>provided</scope>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.11.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.11.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-slf4j-impl</artifactId>
+			<version>2.11.1</version>
 		</dependency>
 	</dependencies>
 
